@@ -2,7 +2,7 @@
 $json = file_get_contents('php://input');
 $params = json_decode($json, true);
 error_log(print_r($params, true), 3, 'error.log');
-echo "Hello change world 23  !!";
+echo "Hello change world 30  !!";
 echo "kotiramokotiramo";
 ?>
 
